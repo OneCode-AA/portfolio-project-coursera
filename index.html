@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website (Coursera Front-End Project)</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-info">
+        <h3>John Doe</h3>
+        <div class="mail">
+          <img
+            src="/images/—Pngtree—blue purple envelope style business_4538400.png"
+            alt="mail"
+            width="3%"
+          />
+          <p>jdoe@jeemail.com</p>
+        </div>
+        <div class="phone">
+          <img src="/images/icons8-phone-24.png" alt="phone" width="2.5%" />
+          <p>+13456764598</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <ul class="nav-ul">
+          <a href="#"><li class="nav-li">About Me</li></a>
+          <a href="#"><li class="nav-li">Skills</li></a>
+          <a href="#"><li class="nav-li">Projects</li></a>
+          <a href="#"><li class="nav-li">Recommendations</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="introduction">
+        <article class="logo">
+          <img src="/images/software programming.png" alt="logo" />
+        </article>
+        <article class="bio">
+          <h1>Hi, I'm John Doe!<span class="wave">👋</span></h1>
+          <p>
+            I am a full-stack developer with 2 years of experience in both
+            application and presentation layers. I have worked on applications
+            and microservices deployed on IBM Cloud. I am an avid user of IBM
+            Watson Services and have worked on Watson Assistant, NLU, Sentiment
+            analyzer to name a few.
+          </p>
+        </article>
+      </section>
+      <section class="skills">
+        <h2>Skills</h2>
+        <div class="flex-container-skills">
+          <article class="skill">
+            <img src="/images/html-5.png" alt="html" />
+            <p>HTML</p>
+            <p>2 years experience</p>
+          </article>
+          <article class="skill">
+            <img src="images/js.png" alt="javascript" />
+            <p>JavaScript</p>
+            <p>1.5 years experience</p>
+          </article>
+          <article class="skill">
+            <img src="/images/java.png" alt="java" />
+            <p>Java</p>
+            <p>.5 years experience</p>
+          </article>
+          <article class="skill">
+            <img src="/images/physics.png" alt="react" />
+            <p>React</p>
+            <p>1 years experience</p>
+          </article>
+          <article class="skill">
+            <img src="/images/nodejs.png" alt="node.js" />
+            <p>Node.Js</p>
+            <p>1 years experience</p>
+          </article>
+          <article class="skill">
+            <img src="/images/css-3.png" alt="css" />
+            <p>CSS</p>
+            <p>2 years experience</p>
+          </article>
+        </div>
+      </section>
+      <section class="projects">
+        <h2>Projects</h2>
+        <article class="sub-projects">
+          <ul class="sub-ul">
+            <li class="sub-li">
+              Chatbot
+              <ul class="sub-sub-ul">
+                <li class="sub-sub-li">
+                  Developed a secure website integrated with chatbot for an
+                  automobile client using HTML, CSS, JavaScript and IBM Watson
+                  Assistant
+                </li>
+                <hr />
+              </ul>
+            </li>
+            <li class="sub-li">
+              Sentiment Analyzer
+              <ul class="sub-sub-ul">
+                <li class="sub-sub-li">
+                  Developed and deployed a sentiment analyzer for the box
+                  reviews section of an eCommerce platform using IBM NLU
+                </li>
+                <hr />
+              </ul>
+            </li>
+            <li class="sub-li">
+              Fashion Website
+              <ul class="sub-sub-ul">
+                <li class="sub-sub-li">
+                  Created a styled multi-page website for a new player in the
+                  fashion industry and integreated it with a shopping cart,
+                  using stripe for payment gateway
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="recommendations">
+        <h2 class="recommend-title">Recommendations</h2>
+        <article class="container-recommendations">
+          <blockquote class="recommendation-boxes">
+            <q>
+              <span class="quotes"
+                >John is a very quick learner and quickly grasps key concepts of
+                web development. He got a great attitude & he is an excellent
+                team player. He has a curious mind and asks the right question.
+                He takes initiative within a team and has potentials to lead the
+                team.</span
+              >
+            </q>
+          </blockquote>
+          <blockquote class="recommendation-boxes">
+            <q>
+              <span class="quotes">
+                Working with John has been an awesome experinece. He is highly
+                knowledgeable and always goes the extra step to make sure
+                everything is right. For any future projects that need him
+                expertise i would definitely want to work with him again</span
+              >
+            </q>
+          </blockquote>
+          <blockquote class="recommendation-boxes">
+            <q>
+              <span class="quotes">
+                I had worked along with John during the initial phase of our
+                venture which needed Web development. He is a commited resource
+                who has in depth knowledge about the domain. He will be an asset
+                for any organisation!</span
+              >
+            </q>
+          </blockquote>
+          <blockquote class="recommendation-boxes">
+            <q>
+              <span class="quotes"
+                >First time i meet John Doe, He was so friendly and patient with
+                me, i was very new to the company, he walked me through all the
+                dos and don'ts and also was very quick to lend me a hang when i
+                had troubles completing projects</span
+              >
+            </q>
+          </blockquote>
+        </article>
+        <article class="recommend">
+          <h4 class="leave-a-recommendation">Leave a Recommendation</h4>
+          <form action="" method="post">
+            <input type="text" placeholder="Name (Optional)" id="name-rec" />
+            <br />
+            <textarea
+              name="recommend"
+              id="recommend"
+              rows="10"
+              placeholder="message"
+            ></textarea>
+            <input type="submit" value="submit" id="submit" />
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <a href="#"
+        ><img src="/images/up-arrow-circle-solid-36.png" alt="arrow"
+      /></a>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
